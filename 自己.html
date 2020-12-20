@@ -1,14 +1,173 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<title>作业</title>
-	<link rel="stylesheet" type="text/css" href="自己.css">
+	<link rel="stylesheet">
+	<style type="text/css">
+		.shang{
+			height: 52px;
+			line-height: 32px;
+			border-bottom: 1px solid rgba(218,218,218,1);
+		}
+
+		.neirong{
+			width:1200px;
+			margin: 0 auto;
+		}
+
+		.biao{
+			float:right;
+		}
+
+		.biao li{
+			text-decoration: none;
+			margin-left:27px;
+			float:left;
+		}
+
+		.form li a{
+			text-decoration: none;
+			font-size:12px;
+			font-weight:300 ;
+			color: rgba(0,0,0,1) ;
+		}
+		li
+		{list-style-type:none;
+ 		text-decoration: none;
+		} 
+		.xia{
+			height:100px;
+		}
+		.logo{
+			margin-top:14px;
+			float:left ;
+			height:90px;
+		}
+		.nav{
+			float:left;
+			margin-top:40px;
+		}
+		.nav li{
+			float:left;
+			width:122px;
+			text-align:center;
+			font-size:16px;
+			font-weight:bold;
+		}
+		.nav .last{
+			border: :none;
+		}
+		.nav a{
+			text-decoration: none;
+			color:rgba(0,0,0,1);
+		}
+		form{
+			float:right;
+			margin-top: 35px;
+		}
+		.search{
+			float:left;
+			border:1px solid red;
+		}
+		.submit{
+			float:left;
+			width:50px;
+			height:21px;
+		}
+		.banner{
+			height:550px;
+			position:relative;
+		}
+		.banner li{
+			width:100%;
+			height:550px;
+			position:absolute;
+			top:0;
+			left:0;
+		}
+		.banner-one{
+			background:url(3.jpg) no-repeat center ;
+			width:106px;
+			height:106px;
+		}
+
+		.banner-two{
+			background:url(1.png) no-repeat center ;
+			width:106px;
+			height:106px;
+		}
+		.text{
+			width:106px;
+			height:106px;
+			position:absolute;
+			top:220px;
+			left:12%;
+		}
+		.next{
+			left:auto;
+			right:12%;
+		}
+		#max{
+			  width: 900px;
+			  height: 500px;
+			  align-items: center;
+			  margin: 5% auto;
+			  margin-top: 0%;
+		}
+			.re{
+			  position: relative;
+			  height: 400px;
+		}
+			.re ul{
+			  list-style-type:none ;
+		}
+			.re ul>li{
+			  width: 100%;
+			  height: 300px;
+			  position: absolute;
+
+			  transition: 1s;
+			  opacity: 0;
+		}
+			.re ul>li img{
+			  width: 900px;
+			  height: 500px;
+			  border-radius: 10%;
+			  border: 15px solid #fffbd6;
+		}
+			#max ol {
+			  position: relative;
+			  display: grid;
+			  grid-template-columns: repeat(5,75px);
+			  grid-template-rows: auto;
+			  grid-gap: 1em;gap: 1em;
+			  float: right;
+			  margin-top: 450px;
+			  list-style: none;
+			  top:0;left:0;
+		}
+			#max ol li {
+			  width: 25px;
+			  height: 10px;
+			  font-size: 15px;
+			  line-height: 20px;
+			  float: left;
+			  text-align: center;
+			  border-radius: 2em;
+			  border: 5px solid #999999;
+		}
+		#tip{
+			float: left;
+			color: red;
+			text-align: left;
+			font-size: 20px;
+		}
+	</style>
 </head>
 <body>
 	<div class="header">
 		<div class="shang">
 			<div class="neirong">
-				<ul class="biao clear">
+				<ul class="biao">
 					<li class="yidong">
 						版权由一人之下官方提供
 					</li>
@@ -19,97 +178,201 @@
 			</div>
 		</div>
 		<div class="xia">
-			 <div class="container clear">
+			 <div class="container">
                 <img src="http://image.9game.cn/2018/4/27/20130428.jpg" alt="logo图" class="logo" />
-                <ul class="nav clear">
-                    <li class="first"><a href="#">动漫</a></li>
-                    <li><a href="#">冯宝宝</a></li>
-                    <li><a href="#">楚岚</a></li>
-                    <li><a href="#">八大术之尽头</a></li>
-                    <li><a href="#">甲申之乱</a></li>
-                    <li class="last"><a href="#">剧情先知</a></li>
+                <ul class="nav">
+                    <li class="first">
+                    	<a href="https://v.qq.com/x/cover/mtxrcjfijj77gze/b00336ecvof.html?ptag=10525" style="text-decoration: none;">动漫</a>
+                    </li>
+                    <li><a href="https://g.pconline.com.cn/x/1330/13305828.html">
+                    冯宝宝</a>
+                	</li>
+                    <li>
+                    	<a href="https://baike.baidu.com/item/%E5%BC%A0%E6%A5%9A%E5%B2%9A/19854447?fr=aladdin">楚岚</a>
+                    </li>
+                    <li>
+                    	<a href="https://www.sohu.com/a/253338681_100227378">八大术之尽头</a>
+                    </li>
+                    <li>
+                    	<a href="https://www.idongde.com/c/5092964e3B17A437.shtml">甲申之乱</a>
+                    </li>
+                    <li class="last">
+                    	<a href="https://baijiahao.baidu.com/s?id=1620997550725364708&wfr=spider&for=pc">剧情深入理解</a>
+                    </li>
                 </ul>
-		<form class="form clear">
+		<form class="form">
 			<input type="text" placeholder="作品/召唤师" class="search">
 			<input type="button" class="submit" style="vertical-align:bottom;" value="搜索">
 		</form>
 		</div>
 	</div>
-		<div>
-	<form>
-		<table align="center" border="1" cellspacing="0">
-		<caption><strong>手游注册</strong></caption>
-		<tr>
-			<td align="right">手游名称</td>
-			<td>
-				<input type="text" name="mingzi">
-			</td>
-		</tr>
-		<tr>
-			<td align="right">登陆密码</td>
-			<td>
-				<input type="password" name="mima">
-			</td>
-		</tr>
-		<tr>
-			<td align="right">重复密码</td>
-			<td>
-				<input type="password" name="chongfumima">
-			</td>
-		</tr>
-		<tr>
-			<td align="right">真实姓名</td>
-			<td>
-				<input type="text" name="xingming">
-			</td>
-		</tr>
-		<tr>
-			<td align="right">绑定手机电话</td>
-			<td>
-				<input type="text" name="qiyemingcheng" disabled="disabled">
-			</td>
-		</tr>
-		<tr>
-			<td align="right">游戏身份</td>
-			<td>
-				<input type="radio" name="shenfen" checked="checked">战士
-				<input type="radio" name="shenfen">法师
-				<input type="radio" name="shenfen">召唤师
-			</td>
-		</tr>
-		<tr>
-			<td align="right">游戏选区</td>
-			<td>
-				<select>
-				<option>中国大陆 +86</option>
-				<option>中国台湾 +886</option>
-				<option>中国香港 +852</option>
-				<option>马来西亚 +60</option>
-				<option>新加坡 +65</option>				
-			    </select>
-
-		</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td>
-				<input type="checkbox" name="danxuan">创建网站账号的同时，我同意遵守： <br/>
-				<a href="https://rule.1688.com/policy/terms.htm?tracelog=aliguize_hyjl">《一人之下手游服务条款》</a>和 <a href="https://rule.1688.com/policy/privacy.html">《隐私声明》</a>	
-			</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><input type="submit" value="同意并注册" name="zhuce"></td>
-		</tr>
-	</table>
-	</form>
-	</div>
-	<div class="banner">
-		<ul>
-			<li class="banner-one"></li>
-			<li class="banner-two"></li>
-		</ul>
-	</div>
-
+	<div id="max">
+        <div class="re">
+            <ul>
+                <li>
+                	<img src="https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2697182153,3196514773&fm=26&gp=0.jpg" alt="">
+                </li>
+                <li>
+                	<img src="https://dss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2700260606,2295851965&fm=26&gp=0.jpg" alt="">
+                </li>
+                <li>
+                	<img src="https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2420051738,1655092859&fm=26&gp=0.jpg" alt="">
+                </li>
+                <li>
+                	<img src="https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1896356910,154222344&fm=26&gp=0.jpg" alt="">
+                </li>
+                <li>
+                	<img src="https://dss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=853607244,3781221879&fm=26&gp=0.jpg" alt="">
+                </li>
+            </ul>
+            <ol>
+                <li>
+                	
+                </li>
+                <li>
+                	
+                </li>
+                <li>
+                	
+                </li>
+                <li>
+                	
+                </li>
+                <li>
+                	
+                </li>
+            </ol>
+        </div>
+    </div>
+    <table border="1" cellpadding="0" cellspacing="0">
+    <caption> <strong>一人之下同名手游注册</strong></caption>
+        <tr>
+            <td>游戏名</td>
+            <td><form><input type = "text" id="names"/></form></td>
+        </tr>
+        <tr>
+            <td>游戏密码</td>
+            <td><form><input type = "password" id="passwords"/></form></td>
+        </tr>
+        <tr>
+            <td>真实姓名</td>
+                <td><form><input type = "text" id="reallynames"/></form></td>
+        </tr>
+        <tr>
+                <td>身份证号</td>
+                <td><form><input type = "text"/ id="IDcords"></form></td>
+        </tr>
+        <tr>
+            <td>游戏身份</td>
+            <td>
+            	<form>
+            		<input type = "radio"  value = "Male" name = "style" checked />
+                       张灵玉 
+                      <input type = "radio"  value = "feMale" name = "style"  />
+                       宝儿姐
+                      <input type = "radio"  value = "feMale" name = "style"  />
+                       张楚岚
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>电话号码</td>
+            <td>
+                <form>
+                        <select name="电话号码">
+                        <option value="1">中国大陆 +86</option>
+                        <option value="2">中国台湾 +886</option>
+                        <option value="3">中国香港 +852</option>
+                        <option value="4">马来西亚 +60</option>
+                        <option value="5">新加坡 +65</option>
+                        </select>
+                        <input type = "text"/>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            	
+            </td>
+            <td>
+            	<form> 
+                <input  type = "checkbox"  name = "hobby"   value = "1"/>
+                创建账号的同时，我同意遵守
+                <a href="https://syzs.qq.com/sempage/yrzx/index.html?ADTAG=baidunew&via=315_BDSEM_127041474_4788814679_172632157995&bd_vid=10117422176122607416" target = "_blank">《一人之下手游服务条款》
+                </a>
+                及
+                <a href="https://rule.1688.com/policy/privacy.html" target = "_blank">
+                《隐私声明》
+            	</a>        
+            </form>
+        </td>
+        </tr>
+    </table>
+    <form>
+    	<p id="tip">	</p>
+    <input type="button" value="同意并注册" name="注册完成" onclick="sub()" id="submits" />
+            	</form>
+    <script type="text/javascript">
+    		window.onload = function(){
+			  var box = this.document.getElementsByClassName("re")[0];
+			  var lik=box.getElementsByTagName("li"); 
+			  function fun(i,j){
+			    lik[i].style.opacity=1;
+			    lik[j].style.opacity=0;
+			    lik[i+5].style.backgroundColor="#ffffff";
+			    lik[j+5].style.backgroundColor="#00000000"
+			  }
+			  fun(0,1);
+			  var i =0;
+			  function auto(){
+			    if(++i >= 5){
+			      i=0;
+			      fun(0,4);
+			    }
+			    else fun(i,i-1);
+			  }
+			  timer=this.setInterval(auto,2000);
+			  box.onmouseover = function () { 
+			    console.log('good');
+			    clearInterval(timer);
+			  }
+			  box.onmouseout = function () {
+			    timer = setInterval(auto, 2000); 
+			  }
+			  var j =0;
+			  for(;j<5;j++){
+			    lik[j+5].ind=j;
+			    lik[j+5].onclick=function(){
+			      fun(this.ind,i)
+			      i=this.ind;
+			    }
+			  }
+			}
+			function sub(){
+			var names = document.getElementById("names");
+			var passwords = document.getElementById("passwords");
+			var rname = document.getElementById("reallynames");
+			var tip = document.getElementById("tip");
+			var IDcords = document.getElementById("IDcords");
+			if(names.value == ""){
+				tip.innerHTML = "名字不能为空";
+			}
+			else{
+				if(passwords.value == ""){
+					tip.innerHTML = "密码不能为空";
+				}else{
+					if(rname.value == ""){
+						tip.innerHTML = "真实姓名不能为空";
+					}else{
+						if(IDcords.value == ""){
+							tip.innerHTML = "身份证号不能为空";
+						}else{
+							tip.innerHTML = "恭喜" + rname.value + ",您的一人之下手游创建成功,您的游戏名为" + names.value + ",您的密码为"+ passwords.value +",祝您在游戏中玩的愉快"; 
+						}
+					}
+				}
+			}
+		}
+    </script>
 </body>
 </html>
